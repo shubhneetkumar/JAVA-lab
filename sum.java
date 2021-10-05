@@ -1,10 +1,17 @@
+//Q->print & sum all elemnts of numeric array by using foreach loop
+
 class sum
 {
-          public static void main(String args[])
-          {
-                       int var1=Integer.parseInt(args[0]);
-                       int var2=Integer.parseInt(args[1]);
-                    
-                       System.out.println(var1+var2);
-          }
+                        public static void main(String args[])
+                        {
+                                    int ar[] = {10,20,30,40,50,60};
+                                    int sum=0;
+      
+                                    for(int var : ar)
+                                    {
+                                                 System.out.println(var);
+                                                 sum=sum+var;
+                                    }
+                                    System.out.println("Total :"+sum);
+                         }
 }
